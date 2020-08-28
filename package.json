@@ -1,0 +1,31 @@
+{
+  "name": "simplezip",
+  "version": "1.0.0",
+  "description": "Simple archive with multiple files in one .zip file",
+  "main": "index.js",
+  "scripts": {
+    "test": "env NODE_ENV=test mocha --exit test",
+    "testw": "env NODE_ENV=test mocha --inspect --exit -w --inline-diffs test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrejs82git/simpleZip.git"
+  },
+  "keywords": [
+    "js",
+    "zip",
+    "simple",
+    "javascript"
+  ],
+  "author": "andrjs82",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrejs82git/simpleZip/issues"
+  },
+  "homepage": "https://github.com/andrejs82git/simpleZip#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jszip": "^3.5.0",
+    "mocha": "^8.1.1"
+  }
+}

@@ -1,3 +1,6 @@
+#remove testFiles
+result*
+
 # Logs
 logs
 *.log
